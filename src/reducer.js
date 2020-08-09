@@ -1,20 +1,6 @@
 export const intialState = {
-    basket: [
-        {
-            id: "12321341",
-            title:"The Lean Startup: How Constant Innovation Creates Radically Successful Businesses",
-            price:11.26,
-            rating:5,
-            image:"https://images-eu.ssl-images-amazon.com/images/I/81j0RhrgNNL.__BG0,0,0,0_FMpng_AC_UL600_SR393,600_.jpg"
-        },
-        {
-            id: "12321341",
-            title:"The Lean Startup: How Constant Innovation Creates Radically Successful Businesses",
-            price:11.26,
-            rating:5,
-            image:"https://images-eu.ssl-images-amazon.com/images/I/81j0RhrgNNL.__BG0,0,0,0_FMpng_AC_UL600_SR393,600_.jpg"
-        }
-    ],
+    basket: [],
+    user: null
 }
 
 // this is something new and cool
@@ -24,6 +10,11 @@ export const getBasketTotal = (basket) => basket?.reduce((amount, item) => item.
 const reducer = (state, action) => {
     console.log(action)
     switch(action.type){
+        case 'SET_USER':
+            return {
+                ...state,
+                user: action.user
+            }
         case 'ADD_TO_BASKET': 
             // Logic for adding item to the basket
             return {
