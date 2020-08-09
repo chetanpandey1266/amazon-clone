@@ -13,6 +13,7 @@ A simple clone of amazon using reactjs. For deploying the model, I am using fire
   - A Product Page that can be used to display the product
   - Individual basket for each user 
   - Payment options, etc.
-
-[App Url](https://clone-ee4f5.web.app/) : Click on this and have a look
+  
+And Yeah I had also not changed the title 😅 
+[📎app url](https://clone-ee4f5.web.app/) : Click on this and have a look😊
   
