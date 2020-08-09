@@ -15,5 +15,6 @@ A simple clone of amazon using reactjs. For deploying the model, I am using fire
   - Payment options, etc.
   
 And Yeah I had also not changed the title 😅 
+
 [📎app url](https://clone-ee4f5.web.app/) : Click on this and have a look😊
   
